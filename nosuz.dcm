@@ -10,6 +10,11 @@ D USB to serail UART
 K USB, UART, Serial, SSOP
 $ENDCMP
 #
+$CMP KM-23YSGC
+D Two color LED, Yellow and Green
+K LED, SOT-23
+$ENDCMP
+#
 $CMP USB-micro-B
 D USB Micro B connector
 K USB Micro B, USB
