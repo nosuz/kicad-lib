@@ -10,4 +10,9 @@ D USB to serail UART
 K USB, UART, Serial, SSOP
 $ENDCMP
 #
+$CMP USB-micro-B_nosuz
+D USB Micro B connector
+K USB Micro B, USB
+$ENDCMP
+#
 #End Doc Library
