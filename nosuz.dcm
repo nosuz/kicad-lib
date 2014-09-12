@@ -1,16 +1,16 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP FT231XQ_nosuz
+$CMP FT231XQ
 D USB to serial UART
 K USB, UART, Serial, QFN
 $ENDCMP
 #
-$CMP FT231XS_nosuz
+$CMP FT231XS
 D USB to serail UART
 K USB, UART, Serial, SSOP
 $ENDCMP
 #
-$CMP USB-micro-B_nosuz
+$CMP USB-micro-B
 D USB Micro B connector
 K USB Micro B, USB
 $ENDCMP
