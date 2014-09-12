@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP FT231XQ_nosuz
+D USB to serial UART
+K USB, UART, Serial, QFN
+$ENDCMP
+#
+$CMP FT231XS_nosuz
+D USB to serail UART
+K USB, UART, Serial, SSOP
+$ENDCMP
+#
+#End Doc Library
