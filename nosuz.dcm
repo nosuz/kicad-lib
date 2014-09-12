@@ -15,6 +15,7 @@ $ENDCMP
 $CMP KM-23YSGC
 D Two color LED, Yellow and Green
 K LED, SOT-23
+F http://akizukidenshi.com/download/ds/kingbright/KM-23YSGC(Ver.6B).pdf
 $ENDCMP
 #
 $CMP NJM2865F33
