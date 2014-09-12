@@ -3,11 +3,13 @@ EESchema-DOCLIB  Version 2.0
 $CMP FT231XQ
 D USB to serial UART
 K USB, UART, Serial, QFN
+F http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT231X.pdf
 $ENDCMP
 #
 $CMP FT231XS
 D USB to serail UART
 K USB, UART, Serial, SSOP
+F http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT231X.pdf
 $ENDCMP
 #
 $CMP KM-23YSGC
