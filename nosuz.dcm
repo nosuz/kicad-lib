@@ -36,6 +36,18 @@ K LDO Regulator, +3.3V, 100mA, SOT-23-5
 F http://semicon.njr.co.jp/jpn/PDF/NJM2865_NJM2866_J.pdf
 $ENDCMP
 #
+$CMP OSOR1608
+D Orange LED
+K LED, Orange, 1608
+F http://akizukidenshi.com/download/ds/optosupply/OSXX1608C1A_ver.a.6.pdf
+$ENDCMP
+#
+$CMP OSYG1608
+D Yellow LED
+K LED, Yellow, 1608
+F http://akizukidenshi.com/download/ds/optosupply/OSXX1608C1A_ver.a.6.pdf
+$ENDCMP
+#
 $CMP USB-micro-B
 D USB Micro B connector
 K USB Micro B, USB
