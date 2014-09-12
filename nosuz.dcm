@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP AYBG1202W
+D Two color LED, Yellow and Green
+K LED
+F http://akizukidenshi.com/catalog/g/gI-05678/
+$ENDCMP
+#
 $CMP FT231XQ
 D USB to serial UART
 K USB, UART, Serial, QFN
