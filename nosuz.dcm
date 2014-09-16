@@ -18,6 +18,11 @@ K USB, UART, Serial, SSOP
 F http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT231X.pdf
 $ENDCMP
 #
+$CMP IRLML6402
+D Pch MOS-FET
+F http://www.irf.com/product-info/datasheets/data/irlml6402pbf.pdf
+$ENDCMP
+#
 $CMP KM-23YSGC
 D Two color LED, Yellow and Green
 K LED, SOT-23
