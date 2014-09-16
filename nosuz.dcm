@@ -47,6 +47,12 @@ K LED, 1608
 F http://akizukidenshi.com/download/ds/optosupply/OSXX1608C1A_ver.a.6.pdf
 $ENDCMP
 #
+$CMP TAR5SB33
+D LDO Regulator, +3.3V 200 mA
+K LDO Regulator, +3.3V, 200mA, SOT-25
+F http://www.semicon.toshiba.co.jp/info/docget.jsp?type=datasheet&lang=en&pid=TAR5SB33
+$ENDCMP
+#
 $CMP USB-micro-B
 D USB Micro B connector
 K USB Micro B, USB
