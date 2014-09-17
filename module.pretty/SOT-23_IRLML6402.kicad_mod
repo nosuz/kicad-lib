@@ -1,9 +1,9 @@
-(module SOT-23_IRLML6402 (layer F.Cu) (tedit 5417A6FF)
+(module SOT-23_IRLML6402 (layer F.Cu) (tedit 5418CECC)
   (tags SOT-23)
-  (fp_text reference SOT-23_IRLML6402 (at -0.28 -2.23) (layer F.SilkS)
+  (fp_text reference SOT-23_IRLML6402 (at 0 0) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.15)))
   )
-  (fp_text value VAL** (at 0.38 0.03) (layer F.SilkS)
+  (fp_text value VAL** (at 0 2.9) (layer F.SilkS) hide
     (effects (font (size 1.5 1.5) (thickness 0.15)))
   )
   (fp_line (start -1.5 0) (end -0.95 0) (layer F.SilkS) (width 0.16))

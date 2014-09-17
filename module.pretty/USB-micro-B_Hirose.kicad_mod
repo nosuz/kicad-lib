@@ -1,8 +1,8 @@
-(module USB-micro-B_Hirose (layer F.Cu) (tedit 54185A5C)
-  (fp_text reference USB-micro-B_Hirose (at 0 3.4) (layer F.SilkS)
+(module USB-micro-B_Hirose (layer F.Cu) (tedit 5419193A)
+  (fp_text reference USB-micro-B_Hirose (at 0 0) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.15)))
   )
-  (fp_text value VAL** (at 0 -4.55) (layer F.SilkS)
+  (fp_text value VAL** (at 0 -4.55) (layer F.SilkS) hide
     (effects (font (size 1.5 1.5) (thickness 0.15)))
   )
   (fp_line (start -3.75 1.45) (end -3.75 2.15) (layer F.SilkS) (width 0.16))

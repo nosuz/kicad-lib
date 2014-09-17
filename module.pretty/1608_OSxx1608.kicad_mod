@@ -1,8 +1,8 @@
-(module 1608_OSxx1608 (layer F.Cu) (tedit 541817EF)
-  (fp_text reference 1608_OSxx1608 (at 0 -1.27) (layer F.SilkS)
+(module 1608_OSxx1608 (layer F.Cu) (tedit 5418CE1C)
+  (fp_text reference 1608_OSxx1608 (at -0.1 -0.15) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value VAL** (at 0 1.27) (layer F.SilkS)
+  (fp_text value VAL** (at 0 1.27) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_line (start -0.8 0.55) (end 0.8 0.55) (layer F.SilkS) (width 0.16))

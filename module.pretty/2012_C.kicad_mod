@@ -1,8 +1,8 @@
-(module 2012_C (layer F.Cu) (tedit 541811A5)
-  (fp_text reference 2012_C (at 0.1 1.9) (layer F.SilkS)
+(module 2012_C (layer F.Cu) (tedit 5418CE5A)
+  (fp_text reference 2012_C (at 0 0) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.15)))
   )
-  (fp_text value VAL** (at -0.1 -1.65) (layer F.SilkS)
+  (fp_text value VAL** (at -0.1 -1.65) (layer F.SilkS) hide
     (effects (font (size 1.5 1.5) (thickness 0.15)))
   )
   (fp_line (start -1 0.75) (end 1 0.75) (layer F.SilkS) (width 0.16))
