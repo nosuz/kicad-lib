@@ -29,6 +29,12 @@ K LED, SOT-23
 F http://akizukidenshi.com/download/ds/kingbright/KM-23YSGC(Ver.6B).pdf
 $ENDCMP
 #
+$CMP MAX31855
+D Thermocouple-to-Digital Converter
+K SPI
+F http://datasheets.maximintegrated.com/en/ds/MAX31855.pdf
+$ENDCMP
+#
 $CMP NJM2865F33
 D LDO Regulator, +3.3V 100 mA
 K LDO Regulator, +3.3V, 100mA, SOT-23-5
