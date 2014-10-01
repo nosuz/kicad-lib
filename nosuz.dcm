@@ -76,6 +76,12 @@ K USB, UART, Serial, SSOP
 F http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT231X.pdf
 $ENDCMP
 #
+$CMP FT234XD
+D USB to serial UART
+K USB, UART, Serial, DFN
+F http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT234XD.pdf
+$ENDCMP
+#
 $CMP IRLML6402
 D Pch MOS-FET
 F http://www.irf.com/product-info/datasheets/data/irlml6402pbf.pdf
