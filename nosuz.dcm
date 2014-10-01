@@ -1,8 +1,56 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP ATMEGA168A-MU
+D ATMEG168A, QFN/MLF32, 16k Flash, 1kB SRAM, 512B EEPROM
+K AVR 8bit Microcontroller MegaAVR
+F http://www.atmel.com/images/atmel-8271-8-bit-avr-microcontroller-atmega48a-48pa-88a-88pa-168a-168pa-328-328p_datasheet.pdf
+$ENDCMP
+#
+$CMP ATMEGA168PA-MU
+D ATMEGA168PA, QFN/MLF32, 16k Flash, 1kB SRAM, 512B EEPROM, picoPower
+K AVR 8bit Microcontroller MegaAVR
+F http://www.atmel.com/images/atmel-8271-8-bit-avr-microcontroller-atmega48a-48pa-88a-88pa-168a-168pa-328-328p_datasheet.pdf
+$ENDCMP
+#
+$CMP ATMEGA328-MU
+D ATMEGA328, QFN/MLF32, 32k Flash, 2kB SRAM, 1kB EEPROM
+K AVR 8bit Microcontroller MegaAVR
+F http://www.atmel.com/images/atmel-8271-8-bit-avr-microcontroller-atmega48a-48pa-88a-88pa-168a-168pa-328-328p_datasheet.pdf
+$ENDCMP
+#
+$CMP ATMEGA328P-MU
+D ATMEGA328P, QFN/MLF32, 32k Flash, 2kB SRAM, 1kB EEPROM, picoPower
+K AVR 8bit Microcontroller MegaAVR
+F http://www.atmel.com/images/atmel-8271-8-bit-avr-microcontroller-atmega48a-48pa-88a-88pa-168a-168pa-328-328p_datasheet.pdf
+$ENDCMP
+#
+$CMP ATMEGA48A-MU
+D ATMEGA48A, QFN/MLF32, 4k Flash, 512B SRAM, 256B EEPROM
+K AVR 8bit Microcontroller MegaAVR
+F http://www.atmel.com/images/atmel-8271-8-bit-avr-microcontroller-atmega48a-48pa-88a-88pa-168a-168pa-328-328p_datasheet.pdf
+$ENDCMP
+#
 $CMP ATMEGA48PA-CCU
 D ATMEGA48PA, FBGA32, 4k Flash, 512B SRAM, 256B EEPROM
 K AVR 8bit Microcontroller MegaAVR PicoPower
+F http://www.atmel.com/images/atmel-8271-8-bit-avr-microcontroller-atmega48a-48pa-88a-88pa-168a-168pa-328-328p_datasheet.pdf
+$ENDCMP
+#
+$CMP ATMEGA48PA-MU
+D ATMEGA48PA, QFN/MLF32, 4k Flash, 512B SRAM, 256B EEPROM, picoPower
+K AVR 8bit Microcontroller MegaAVR
+F http://www.atmel.com/images/atmel-8271-8-bit-avr-microcontroller-atmega48a-48pa-88a-88pa-168a-168pa-328-328p_datasheet.pdf
+$ENDCMP
+#
+$CMP ATMEGA88A-MU
+D ATMEG88A, QFN/MLF32, 8k Flash, 1kB SRAM, 512B EEPROM
+K AVR 8bit Microcontroller MegaAVR
+F http://www.atmel.com/images/atmel-8271-8-bit-avr-microcontroller-atmega48a-48pa-88a-88pa-168a-168pa-328-328p_datasheet.pdf
+$ENDCMP
+#
+$CMP ATMEGA88PA-MU
+D ATMEGA88PA, QFN/MLF32, 8k Flash, 1kB SRAM, 512B EEPROM, picoPower
+K AVR 8bit Microcontroller MegaAVR
 F http://www.atmel.com/images/atmel-8271-8-bit-avr-microcontroller-atmega48a-48pa-88a-88pa-168a-168pa-328-328p_datasheet.pdf
 $ENDCMP
 #
