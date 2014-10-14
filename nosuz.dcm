@@ -58,7 +58,7 @@ K AVR 8bit Microcontroller MegaAVR
 F http://www.atmel.com/images/atmel-8271-8-bit-avr-microcontroller-atmega48a-48pa-88a-88pa-168a-168pa-328-328p_datasheet.pdf
 $ENDCMP
 #
-$CMP ATXMEGA128D4-A
+$CMP ATXMEGA128D4-AU
 D ATXMEGA128D4, TQFP44, 128k Flash, 8k Boot, 8k SRAM, 2k EEPROM, JTAG
 K AVR 8/16bit Microcontroller XMegaAVR
 F http://www.atmel.com/Images/Atmel-8135-8-and-16-bit-AVR-microcontroller-ATxmega16D4-32D4-64D4-128D4_datasheet.pdf
@@ -70,7 +70,7 @@ K AVR 8/16bit Microcontroller XMegaAVR
 F http://www.atmel.com/Images/Atmel-8135-8-and-16-bit-AVR-microcontroller-ATxmega16D4-32D4-64D4-128D4_datasheet.pdf
 $ENDCMP
 #
-$CMP ATXMEGA16D4-A
+$CMP ATXMEGA16D4-AU
 D ATXMEGA16D4, TQFP44, 16k Flash, 4k Boot, 2k SRAM, 1k EEPROM, JTAG
 K AVR 8/16bit Microcontroller XMegaAVR
 F http://www.atmel.com/Images/Atmel-8135-8-and-16-bit-AVR-microcontroller-ATxmega16D4-32D4-64D4-128D4_datasheet.pdf
@@ -82,7 +82,7 @@ K AVR 8/16bit Microcontroller XMegaAVR
 F http://www.atmel.com/Images/Atmel-8135-8-and-16-bit-AVR-microcontroller-ATxmega16D4-32D4-64D4-128D4_datasheet.pdf
 $ENDCMP
 #
-$CMP ATXMEGA32D4-A
+$CMP ATXMEGA32D4-AU
 D ATXMEGA32D4, TQFP44, 32k Flash, 4k Boot, 4k SRAM, 1k EEPROM, JTAG
 K AVR 8/16bit Microcontroller XMegaAVR
 F http://www.atmel.com/Images/Atmel-8135-8-and-16-bit-AVR-microcontroller-ATxmega16D4-32D4-64D4-128D4_datasheet.pdf
@@ -94,7 +94,7 @@ K AVR 8/16bit Microcontroller XMegaAVR
 F http://www.atmel.com/Images/Atmel-8135-8-and-16-bit-AVR-microcontroller-ATxmega16D4-32D4-64D4-128D4_datasheet.pdf
 $ENDCMP
 #
-$CMP ATXMEGA64D4-A
+$CMP ATXMEGA64D4-AU
 D ATXMEGA64D4, TQFP44, 64k Flash, 4k Boot, 4k SRAM, 2k EEPROM, JTAG
 K AVR 8/16bit Microcontroller XMegaAVR
 F http://www.atmel.com/Images/Atmel-8135-8-and-16-bit-AVR-microcontroller-ATxmega16D4-32D4-64D4-128D4_datasheet.pdf
