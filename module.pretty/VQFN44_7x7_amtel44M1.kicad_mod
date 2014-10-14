@@ -1,8 +1,8 @@
-(module QFN44-7x7_amtel (layer F.Cu) (tedit 543D3B9B)
+(module VQFN44_7x7_amtel44M1 (layer F.Cu) (tedit 543D3B9B)
   (descr http://www.atmel.com/images/atmel-8826-seeprom-pcb-mounting-guidelines-surface-mount-packages-applicationnote.pdf)
-  (tags "MLF44 44M1")
+  (tags "MLF44 VQFN44 44M1")
   (clearance 0.16)
-  (fp_text reference QFN44-7x7_amtel (at 0 0) (layer F.SilkS)
+  (fp_text reference VQFN44_7x7_amtel44M1 (at 0 0) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.15)))
   )
   (fp_text value VAL** (at 0 0) (layer F.SilkS) hide

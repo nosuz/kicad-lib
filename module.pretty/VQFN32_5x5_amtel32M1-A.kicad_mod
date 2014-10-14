@@ -1,8 +1,8 @@
-(module QFN32-5x5_amtel (layer F.Cu) (tedit 543D2F85)
+(module VQFN32_5x5_amtel32M1-A (layer F.Cu) (tedit 543D2F85)
   (descr http://www.atmel.com/images/atmel-8826-seeprom-pcb-mounting-guidelines-surface-mount-packages-applicationnote.pdf)
-  (tags "MLF32, 32M1-A")
+  (tags "MLF32 QFN32 32M1-A")
   (clearance 0.16)
-  (fp_text reference QFN32-5x5_amtel (at 2.3 1.5) (layer F.SilkS)
+  (fp_text reference VQFN32_5x5_amtel32M1-A (at 2.3 1.5) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_text value VAL** (at 2.75 2.85) (layer F.SilkS) hide
