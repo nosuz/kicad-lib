@@ -88,6 +88,10 @@ K LED
 F http://akizukidenshi.com/catalog/g/gI-05678/
 $ENDCMP
 #
+$CMP BITMAP_IMAGE
+D Bitmap image
+$ENDCMP
+#
 $CMP DIP_SW4
 D DIP SWITCH, 4 units
 $ENDCMP
