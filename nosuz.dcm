@@ -181,6 +181,11 @@ K LDO Regulator, +3.3V, 200mA, SOT-25
 F http://www.semicon.toshiba.co.jp/info/docget.jsp?type=datasheet&lang=en&pid=TAR5SB33
 $ENDCMP
 #
+$CMP Tactile_SW_4P
+D Push Button
+K Switch
+$ENDCMP
+#
 $CMP USB-micro-B
 D USB Micro B connector
 K USB Micro B, USB
