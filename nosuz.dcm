@@ -148,6 +148,11 @@ K LDO Regulator, +3.3V, 100mA, SOT-23-5
 F http://semicon.njr.co.jp/jpn/PDF/NJM2865_NJM2866_J.pdf
 $ENDCMP
 #
+$CMP OSTB0603C1C-A
+D LED RGB Anode common
+F http://akizukidenshi.com/download/ds/optosupply/OSTB0603C1C-A.pdf
+$ENDCMP
+#
 $CMP OSxx1608
 D LED
 K LED, 1608
