@@ -1,5 +1,5 @@
-(module CP_4x5.4 (layer F.Cu) (tedit 543B9F44)
-  (fp_text reference CP_4x5.4 (at 0 0) (layer F.SilkS)
+(module CP_4343 (layer F.Cu) (tedit 543B9F44)
+  (fp_text reference CP_4343 (at 0 0) (layer F.SilkS)
     (effects (font (size 1.2 1.2) (thickness 0.16)))
   )
   (fp_text value VAL** (at 0 0) (layer F.SilkS) hide

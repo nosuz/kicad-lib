@@ -1,5 +1,5 @@
-(module 2012_C (layer F.Cu) (tedit 54196524)
-  (fp_text reference 2012_C (at 0 0) (layer F.SilkS)
+(module C_2012 (layer F.Cu) (tedit 54196524)
+  (fp_text reference C_2012 (at 0 0) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.16)))
   )
   (fp_text value VAL** (at 0 0) (layer F.SilkS) hide
