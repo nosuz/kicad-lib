@@ -173,6 +173,11 @@ K LED, SOT-23
 F http://akizukidenshi.com/download/ds/kingbright/KM-23YSGC(Ver.6B).pdf
 $ENDCMP
 #
+$CMP LED_WITH_R
+D LED with R
+K LED
+$ENDCMP
+#
 $CMP MAX31855
 D Thermocouple-to-Digital Converter
 K SPI
