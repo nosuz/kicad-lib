@@ -116,6 +116,12 @@ $CMP BITMAP_IMAGE
 D Bitmap image
 $ENDCMP
 #
+$CMP CONN_AVR_ISP
+D AVR ISP 6P terminal
+K AVR Atmega ISP 6P
+F http://www.atmel.com/images/doc0943.pdf
+$ENDCMP
+#
 $CMP DIP_SW4
 D DIP SWITCH, 4 units
 $ENDCMP
