@@ -1,5 +1,5 @@
-(module 2mm_CP (layer F.Cu) (tedit 54196658)
-  (fp_text reference 2mm_CP (at 0 0) (layer F.SilkS)
+(module CP_D5mm_F2mm (layer F.Cu) (tedit 54196658)
+  (fp_text reference CP_D5mm_F2mm (at 0 0) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.16)))
   )
   (fp_text value VAL** (at 0 0) (layer F.SilkS) hide
