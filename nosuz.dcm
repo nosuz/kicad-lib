@@ -16,6 +16,12 @@ K AVR 8bit Microcontroller MegaAVR
 F http://www.atmel.com/images/atmel-8271-8-bit-avr-microcontroller-atmega48a-48pa-88a-88pa-168a-168pa-328-328p_datasheet.pdf
 $ENDCMP
 #
+$CMP ATMEGA16U2-AU
+D ATMEGA16U2, TQFP32, 16k Flash, 512B SRAM, 512B EEPROM, USB 2.0
+K AVR 8bit Microcontroller USB
+F http://www.atmel.com/images/doc7799.pdf
+$ENDCMP
+#
 $CMP ATMEGA328-MU
 D ATMEGA328, QFN/MLF32, 32k Flash, 2kB SRAM, 1kB EEPROM
 K AVR 8bit Microcontroller MegaAVR
@@ -26,6 +32,12 @@ $CMP ATMEGA328P-MU
 D ATMEGA328P, QFN/MLF32, 32k Flash, 2kB SRAM, 1kB EEPROM, picoPower
 K AVR 8bit Microcontroller MegaAVR
 F http://www.atmel.com/images/atmel-8271-8-bit-avr-microcontroller-atmega48a-48pa-88a-88pa-168a-168pa-328-328p_datasheet.pdf
+$ENDCMP
+#
+$CMP ATMEGA32U2-AU
+D ATMEGA32U2, TQFP32, 32k Flash, 1kB SRAM, 1kB EEPROM, USB 2.0
+K AVR 8bit Microcontroller USB
+F http://www.atmel.com/images/doc7799.pdf
 $ENDCMP
 #
 $CMP ATMEGA48A-MU
@@ -56,6 +68,12 @@ $CMP ATMEGA88PA-MU
 D ATMEGA88PA, QFN/MLF32, 8k Flash, 1kB SRAM, 512B EEPROM, picoPower
 K AVR 8bit Microcontroller MegaAVR
 F http://www.atmel.com/images/atmel-8271-8-bit-avr-microcontroller-atmega48a-48pa-88a-88pa-168a-168pa-328-328p_datasheet.pdf
+$ENDCMP
+#
+$CMP ATMEGA8U2-AU
+D ATMEGA8U2, TQFP32, 8k Flash, 512B SRAM, 512B EEPROM, USB 2.0
+K AVR 8bit Microcontroller USB
+F http://www.atmel.com/images/doc7799.pdf
 $ENDCMP
 #
 $CMP ATXMEGA128D4-AU
