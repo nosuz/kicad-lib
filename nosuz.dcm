@@ -144,6 +144,12 @@ $CMP DIP_SW4
 D DIP SWITCH, 4 units
 $ENDCMP
 #
+$CMP FT230SX
+D USB to serail UART
+K USB, UART, Serial, SSOP
+F http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT230X.pdf
+$ENDCMP
+#
 $CMP FT231XQ
 D USB to serial UART
 K USB, UART, Serial, QFN
