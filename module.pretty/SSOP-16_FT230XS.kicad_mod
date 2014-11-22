@@ -1,5 +1,5 @@
-(module SOP-16_FT230XS (layer F.Cu) (tedit 546EAE47)
-  (fp_text reference SOP-16_FT230XS (at 0 0) (layer F.SilkS)
+(module SSOP-16_FT230XS (layer F.Cu) (tedit 546EAE47)
+  (fp_text reference SSOP-16_FT230XS (at 0 0) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.16)))
   )
   (fp_text value VAL** (at 0 0) (layer F.SilkS) hide
