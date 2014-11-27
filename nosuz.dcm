@@ -246,6 +246,11 @@ D Bluetooth 2.1+EDR module
 F http://www.microchip.com/wwwproducts/Devices.aspx?product=RN42
 $ENDCMP
 #
+$CMP SO1602A
+D OLED Charactor Display, I2C
+K OLED Display I2C
+$ENDCMP
+#
 $CMP TAR5SB33
 D LDO Regulator, +3.3V 200 mA
 K LDO Regulator, +3.3V, 200mA, SOT-25
