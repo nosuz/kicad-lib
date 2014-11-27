@@ -230,8 +230,8 @@ K LED, 1608
 F http://akizukidenshi.com/download/ds/optosupply/OSXX1608C1A_ver.a.6.pdf
 $ENDCMP
 #
-$CMP PCC-OST-SMP
-D Thermocouple Connector
+$CMP PCC-OST-SMP-K
+D Thermocouple Connector, TypeK
 F http://strawberry-linux.com/pub/PCC-OST-SMP.pdf
 $ENDCMP
 #
