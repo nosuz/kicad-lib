@@ -180,6 +180,12 @@ K USB, UART, Serial, DFN
 F http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT234XD.pdf
 $ENDCMP
 #
+$CMP IRLML6344
+D Nch MOS-FET
+K Nch MOS FET
+F http://www.irf.com/product-info/datasheets/data/irlml6344pbf.pdf
+$ENDCMP
+#
 $CMP IRLML6402
 D Pch MOS-FET
 F http://www.irf.com/product-info/datasheets/data/irlml6402pbf.pdf
