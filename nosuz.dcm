@@ -152,6 +152,11 @@ $CMP BITMAP_IMAGE
 D Bitmap image
 $ENDCMP
 #
+$CMP BSS138
+D Nch MOS-FET
+F http://www.fairchildsemi.co.jp/ds/BS/BSS138.pdf
+$ENDCMP
+#
 $CMP CONN_AVR_ISP
 D AVR ISP 6P terminal
 K AVR Atmega ISP 6P
