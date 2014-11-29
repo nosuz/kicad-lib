@@ -219,11 +219,6 @@ K SPI
 F http://datasheets.maximintegrated.com/en/ds/MAX31855.pdf
 $ENDCMP
 #
-$CMP MOSFET_N
-D Nch MOS-FET
-F http://akizukidenshi.com/download/2N7002K.pdf
-$ENDCMP
-#
 $CMP NJM2865F33
 D LDO Regulator, +3.3V 100 mA
 K LDO Regulator, +3.3V, 100mA, SOT-23-5
