@@ -1,4 +1,4 @@
-(module Pin_Header_Straight_Thin_1x04 (layer F.Cu) (tedit 546ED5D8)
+(module Pin_Header_Straight_Thin_1x04 (layer F.Cu) (tedit 557E170B)
   (descr "Through hole pin header")
   (tags "pin header")
   (fp_text reference Pin_Header_Straight_1x04 (at 0 -2.286) (layer F.SilkS)
@@ -7,6 +7,10 @@
   (fp_text value Val** (at 0 0) (layer F.SilkS) hide
     (effects (font (size 1.27 1.27) (thickness 0.2032)))
   )
+  (fp_line (start -6.08 -2) (end 6.08 -2) (layer F.CrtYd) (width 0.15))
+  (fp_line (start 6.08 -2) (end 6.08 2) (layer F.CrtYd) (width 0.15))
+  (fp_line (start 6.08 2) (end -6.08 2) (layer F.CrtYd) (width 0.15))
+  (fp_line (start -6.08 2) (end -6.08 -2) (layer F.CrtYd) (width 0.15))
   (fp_line (start -2.54 1) (end 5.08 1) (layer F.SilkS) (width 0.15))
   (fp_line (start -2.54 -1) (end 5.08 -1) (layer F.SilkS) (width 0.15))
   (fp_line (start -5.08 -1) (end -2.54 -1) (layer F.SilkS) (width 0.15))
