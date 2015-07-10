@@ -4,6 +4,11 @@ $CMP 2N7002K
 F transistors/mos/*.*
 $ENDCMP
 #
+$CMP AM232x
+D Temp and Relative Humidity Sensor
+K temp humidity sensor I2C
+$ENDCMP
+#
 $CMP AQM0802A-RN-GBW
 D LCD, I2C
 K LCD I2C
