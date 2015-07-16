@@ -258,6 +258,11 @@ D Thermocouple Connector, TypeK
 F http://strawberry-linux.com/pub/PCC-OST-SMP.pdf
 $ENDCMP
 #
+$CMP PL-IRM0101
+D Infrared Receiver Module
+K IR remote contoroller
+$ENDCMP
+#
 $CMP RN4020
 D Bluetooth Low Energy Module
 K BLE
