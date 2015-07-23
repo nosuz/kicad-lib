@@ -1,4 +1,4 @@
-(module QFN-32_amtel32M1-A (layer F.Cu) (tedit 55ACC0BB)
+(module QFN-32_amtel32M1-A (layer F.Cu) (tedit 55B03155)
   (descr http://www.atmel.com/images/atmel-8826-seeprom-pcb-mounting-guidelines-surface-mount-packages-applicationnote.pdf)
   (tags "MLF32 QFN32 32M1-A")
   (clearance 0.16)
@@ -8,6 +8,10 @@
   (fp_text value ATMEGA328P-MU (at 2.75 2.85) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
+  (fp_line (start -0.9 -1.65) (end 5.9 -1.65) (layer F.CrtYd) (width 0.15))
+  (fp_line (start 5.9 -1.65) (end 5.9 5.15) (layer F.CrtYd) (width 0.15))
+  (fp_line (start 5.9 5.15) (end -0.9 5.15) (layer F.CrtYd) (width 0.15))
+  (fp_line (start -0.9 5.15) (end -0.9 -1.65) (layer F.CrtYd) (width 0.15))
   (fp_circle (center 0 -0.75) (end 0.25 -1) (layer F.SilkS) (width 0.2))
   (fp_line (start 5 -0.75) (end 4.7 -0.75) (layer F.SilkS) (width 0.2))
   (fp_line (start 5 -0.45) (end 5 -0.75) (layer F.SilkS) (width 0.2))
