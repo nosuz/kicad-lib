@@ -276,6 +276,11 @@ D Thermocouple Connector, TypeK
 F http://strawberry-linux.com/pub/PCC-OST-SMP.pdf
 $ENDCMP
 #
+$CMP PIEZO_SOUNDER
+D Piezo sounder
+K Piezo sounder, speaker
+$ENDCMP
+#
 $CMP PL-IRM0101
 D Infrared Receiver Module
 K IR remote contoroller
