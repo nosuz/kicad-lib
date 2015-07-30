@@ -305,6 +305,11 @@ D Infrared Receiver Module
 K IR remote contoroller
 $ENDCMP
 #
+$CMP Photo_transitor
+D Photo transistor
+K photo transistor
+$ENDCMP
+#
 $CMP RN4020
 D Bluetooth Low Energy Module
 K BLE
