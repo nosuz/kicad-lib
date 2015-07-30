@@ -199,6 +199,12 @@ $CMP DIP_SW4
 D DIP SWITCH, 4 units
 $ENDCMP
 #
+$CMP DS1307
+D Real Time Clock
+K RTC
+F http://akizukidenshi.com/download/ds/maxim/DS1307.pdf
+$ENDCMP
+#
 $CMP FDC6305N
 D Dual Nch MOS-FET
 K Nch MOS FET
