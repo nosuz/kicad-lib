@@ -321,9 +321,21 @@ D Bluetooth 2.1+EDR module
 F http://www.microchip.com/wwwproducts/Devices.aspx?product=RN42
 $ENDCMP
 #
+$CMP SHT30-DIS
+D Humidity sensor, Sensirion
+K humidity sensor, I2C
+F http://www.sensirion.com/fileadmin/user_upload/customers/sensirion/Dokumente/Humidity/Sensirion_Humidity_SHT3x_Datasheet_digital.pdf
+$ENDCMP
+#
 $CMP SO1602A
 D OLED Charactor Display, I2C
 K OLED Display I2C
+$ENDCMP
+#
+$CMP Si7020
+D Humidity sensor, Silicon Labs
+K Humidity sensor, I2C
+F http://www.silabs.com/Support%20Documents/TechnicalDocs/Si7020.pdf
 $ENDCMP
 #
 $CMP TAR5SB33
