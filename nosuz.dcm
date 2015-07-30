@@ -190,6 +190,11 @@ $CMP CP
 D Polarised capacitor
 $ENDCMP
 #
+$CMP Cds
+D Cds
+K Cds
+$ENDCMP
+#
 $CMP DIP_SW4
 D DIP SWITCH, 4 units
 $ENDCMP
