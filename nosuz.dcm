@@ -186,6 +186,10 @@ K AVR Atmega ISP 6P
 F http://www.atmel.com/images/doc0943.pdf
 $ENDCMP
 #
+$CMP CP
+D Polarised capacitor
+$ENDCMP
+#
 $CMP DIP_SW4
 D DIP SWITCH, 4 units
 $ENDCMP
