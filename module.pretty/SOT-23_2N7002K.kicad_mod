@@ -1,4 +1,4 @@
-(module SOT-23_2N7002K (layer F.Cu) (tedit 54769E1C)
+(module SOT-23_2N7002K (layer F.Cu) (tedit 55BDE74E)
   (descr http://akizukidenshi.com/download/2N7002K.pdf)
   (tags "Nch MOS-FET")
   (fp_text reference SOT-23_2N7002K (at 0 0) (layer F.SilkS)
@@ -7,6 +7,10 @@
   (fp_text value VAL** (at 0 0) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.16)))
   )
+  (fp_line (start -1.7 -1.95) (end 1.7 -1.95) (layer F.CrtYd) (width 0.15))
+  (fp_line (start 1.7 -1.95) (end 1.7 1.9) (layer F.CrtYd) (width 0.15))
+  (fp_line (start 1.7 1.95) (end -1.7 1.95) (layer F.CrtYd) (width 0.15))
+  (fp_line (start -1.7 1.95) (end -1.7 -1.95) (layer F.CrtYd) (width 0.15))
   (fp_line (start -0.1 0.65) (end 0.1 0.65) (layer F.SilkS) (width 0.2))
   (fp_line (start -1.45 -0.65) (end -1.45 0.25) (layer F.SilkS) (width 0.2))
   (fp_line (start 0.7 -0.65) (end 1.45 -0.65) (layer F.SilkS) (width 0.2))
