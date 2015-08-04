@@ -1,12 +1,9 @@
-(module RN4020 (layer F.Cu) (tedit 55B95551)
+(module RN4020 (layer F.Cu) (tedit 55C03E11)
   (fp_text reference RN4020 (at 5.5 -7.5 90) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.15)))
   )
   (fp_text value VAL** (at 7.7 -7.4 90) (layer F.SilkS) hide
     (effects (font (size 1.5 1.5) (thickness 0.15)))
-  )
-  (fp_text user "check pad 9,16 connected to shield" (at 0 4.25) (layer F.CrtYd)
-    (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_line (start 1.5 -1.9) (end 0 0) (layer F.CrtYd) (width 0.15))
   (fp_line (start 0 -1.9) (end 1.5 0) (layer F.CrtYd) (width 0.15))
