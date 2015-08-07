@@ -3,7 +3,7 @@
   (fp_text reference SO1602A (at 40.65 18.25) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.15)))
   )
-  (fp_text value VAL** (at 42.2 20.95) (layer F.SilkS) hide
+  (fp_text value VAL** (at 42.2 20.95) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.15)))
   )
   (fp_text user "Y axis position may have error." (at 24.4 1.6) (layer F.SilkS)

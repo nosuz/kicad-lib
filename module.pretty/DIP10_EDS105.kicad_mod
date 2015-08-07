@@ -4,7 +4,7 @@
   (fp_text reference SW*** (at 0 0) (layer F.SilkS)
     (effects (font (size 1.27 1.143) (thickness 0.2032)))
   )
-  (fp_text value DIP10_EDS105 (at 0 -1.75) (layer F.SilkS) hide
+  (fp_text value DIP10_EDS105 (at 0 -1.75) (layer F.SilkS)
     (effects (font (size 1.27 1.016) (thickness 0.2032)))
   )
   (fp_line (start -8.1 -5.85) (end 8.1 -5.85) (layer F.CrtYd) (width 0.15))

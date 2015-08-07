@@ -4,7 +4,7 @@
   (fp_text reference REF** (at -2.75 0.85 90) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value Socket_Strip_Straight_2x07 (at 0 -3.1) (layer F.Fab) hide
+  (fp_text value Socket_Strip_Straight_2x07 (at 0 -3.1) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_line (start -2.27 -2.27) (end -2.27 4.81) (layer F.CrtYd) (width 0.05))

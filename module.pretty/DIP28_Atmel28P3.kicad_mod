@@ -4,7 +4,7 @@
   (fp_text reference U*** (at -11.43 0) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
-  (fp_text value Atmel28P3 (at 10.16 0) (layer F.SilkS) hide
+  (fp_text value Atmel28P3 (at 10.16 0) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
   (fp_circle (center -16.4 1.55) (end -15.7 1.4) (layer F.SilkS) (width 0.2))

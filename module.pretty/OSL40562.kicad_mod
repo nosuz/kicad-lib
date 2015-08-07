@@ -2,7 +2,7 @@
   (fp_text reference REF** (at -3.1 -4.6) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value OSL40562 (at -6.3 -2.7) (layer F.Fab) hide
+  (fp_text value OSL40562 (at -6.3 -2.7) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_circle (center -0.85 -1.65) (end -0.5 -1.55) (layer F.SilkS) (width 0.15))

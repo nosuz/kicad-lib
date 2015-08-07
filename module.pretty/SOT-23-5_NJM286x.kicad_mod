@@ -4,7 +4,7 @@
   (fp_text reference REF** (at 0 0.5) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value SOT-23-5_NJM286x (at 0 -0.5) (layer F.Fab) hide
+  (fp_text value SOT-23-5_NJM286x (at 0 -0.5) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_line (start -1.95 -2.2) (end 1.95 -2.2) (layer F.CrtYd) (width 0.15))

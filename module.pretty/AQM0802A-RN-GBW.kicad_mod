@@ -4,7 +4,7 @@
   (fp_text reference AQM0802A-RN-GBW (at 14.8 -4.35) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.2)))
   )
-  (fp_text value VAL** (at 14.95 -2.15) (layer F.SilkS) hide
+  (fp_text value VAL** (at 14.95 -2.15) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.2)))
   )
   (fp_line (start 0 -6) (end 30 -6) (layer F.SilkS) (width 0.2))

@@ -4,7 +4,7 @@
   (fp_text reference Pin_Header_Straight_1x03 (at 0 -2.286) (layer F.SilkS)
     (effects (font (size 1.27 1.27) (thickness 0.2032)))
   )
-  (fp_text value Val** (at 0 0) (layer F.SilkS) hide
+  (fp_text value Val** (at 0 0) (layer F.SilkS)
     (effects (font (size 1.27 1.27) (thickness 0.2032)))
   )
   (fp_line (start -1.27 1.27) (end 3.81 1.27) (layer F.SilkS) (width 0.15))

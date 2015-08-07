@@ -2,7 +2,7 @@
   (fp_text reference REF** (at 0 0.5) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value TSHA-T-2.5B2-19E (at 0 -0.5) (layer F.Fab) hide
+  (fp_text value TSHA-T-2.5B2-19E (at 0 -0.5) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_line (start -5.5 -3.6) (end -5.5 3.6) (layer F.CrtYd) (width 0.15))

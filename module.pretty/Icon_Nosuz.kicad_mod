@@ -1,8 +1,8 @@
-(module Icon_Nosuz (layer F.Cu) (tedit 544493F5)
+(module Icon_Nosuz (layer F.Cu) (tedit 55C53488)
   (fp_text reference G*** (at 0 0) (layer F.SilkS) hide
     (effects (font (thickness 0.3)))
   )
-  (fp_text value Icon_Nosuz (at 0.75 0) (layer F.SilkS) hide
+  (fp_text value Icon_Nosuz (at 0.75 0) (layer F.Fab)
     (effects (font (thickness 0.3)))
   )
   (fp_poly (pts (xy 3.231312 -3.051901) (xy 3.175145 -2.922564) (xy 3.021419 -2.734469) (xy 2.859737 -2.565189)

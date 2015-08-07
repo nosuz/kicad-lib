@@ -2,7 +2,7 @@
   (fp_text reference REF** (at 0 0.5) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value CH25-2032LF (at 0 -0.5) (layer F.Fab) hide
+  (fp_text value CH25-2032LF (at 0 -0.5) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_text user + (at 0 9.05) (layer F.SilkS)

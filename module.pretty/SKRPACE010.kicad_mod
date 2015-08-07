@@ -4,7 +4,7 @@
   (fp_text reference SKRPACE010 (at 0 0) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.15)))
   )
-  (fp_text value VAL** (at 0 0) (layer F.SilkS) hide
+  (fp_text value VAL** (at 0 0) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.15)))
   )
   (fp_line (start -3.1 -2.1) (end 3.1 -2.1) (layer F.CrtYd) (width 0.15))

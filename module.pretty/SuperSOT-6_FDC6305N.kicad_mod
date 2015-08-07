@@ -4,7 +4,7 @@
   (fp_text reference SuperSOT-6_FDC6305N (at 0 0) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.16)))
   )
-  (fp_text value VAL** (at 0 0) (layer F.SilkS) hide
+  (fp_text value VAL** (at 0 0) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.16)))
   )
   (fp_circle (center -0.95 0.2) (end -0.7 0.35) (layer F.SilkS) (width 0.2))

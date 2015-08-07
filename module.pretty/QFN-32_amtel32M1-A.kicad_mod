@@ -5,7 +5,7 @@
   (fp_text reference IC1 (at 2.3 1.5) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value ATMEGA328P-MU (at 2.75 2.85) (layer F.SilkS) hide
+  (fp_text value ATMEGA328P-MU (at 2.75 2.85) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_line (start -0.9 -1.65) (end 5.9 -1.65) (layer F.CrtYd) (width 0.15))

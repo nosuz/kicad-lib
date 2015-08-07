@@ -3,7 +3,7 @@
   (fp_text reference SOT-25_TAR5SBxx (at 0 0) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.16)))
   )
-  (fp_text value VAL** (at 0 0) (layer F.SilkS) hide
+  (fp_text value VAL** (at 0 0) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.16)))
   )
   (fp_line (start -1.45 -0.45) (end -1.45 0.45) (layer F.SilkS) (width 0.2))

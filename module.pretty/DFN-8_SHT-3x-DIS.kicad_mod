@@ -2,7 +2,7 @@
   (fp_text reference REF** (at 0 0.5) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value DFN-8_SHT-3x-DIS (at 0 -0.5) (layer F.Fab) hide
+  (fp_text value DFN-8_SHT-3x-DIS (at 0 -0.5) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_line (start -1.25 1.25) (end 1.25 1.25) (layer F.SilkS) (width 0.15))

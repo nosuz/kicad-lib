@@ -4,7 +4,7 @@
   (fp_text reference Socket_Strip_Straight_1x04 (at 0 -2.286) (layer F.SilkS)
     (effects (font (size 1.27 1.27) (thickness 0.2032)))
   )
-  (fp_text value Val** (at 0 0) (layer F.SilkS) hide
+  (fp_text value Val** (at 0 0) (layer F.SilkS)
     (effects (font (size 1.27 1.27) (thickness 0.2032)))
   )
   (fp_line (start 2.54 1.27) (end -5.08 1.27) (layer F.SilkS) (width 0.15))

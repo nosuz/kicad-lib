@@ -4,7 +4,7 @@
   (fp_text reference OSTB0603C1C-A (at 0 0) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.15)))
   )
-  (fp_text value VAL** (at 0 0) (layer F.SilkS) hide
+  (fp_text value VAL** (at 0 0) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.15)))
   )
   (fp_circle (center 1.65 -0.8) (end 1.8 -0.7) (layer F.SilkS) (width 0.2))
