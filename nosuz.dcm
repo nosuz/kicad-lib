@@ -257,6 +257,12 @@ K USB, UART, Serial, DFN
 F http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT234XD.pdf
 $ENDCMP
 #
+$CMP FT240XS
+D FTDI USB 8-BIT FIFO
+K USB FIFO
+F http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT240X.pdf
+$ENDCMP
+#
 $CMP IRLML6344
 D Nch MOS-FET
 K Nch MOS FET
