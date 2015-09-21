@@ -221,6 +221,12 @@ K RTC
 F http://akizukidenshi.com/download/ds/maxim/DS1307.pdf
 $ENDCMP
 #
+$CMP EX03
+D Clock Crystal Oscillator
+K Crystal Oscillator
+F http://akizukidenshi.com/download/ds/etc/EXO3-12MHz.pdf
+$ENDCMP
+#
 $CMP FDC6305N
 D Dual Nch MOS-FET
 K Nch MOS FET
