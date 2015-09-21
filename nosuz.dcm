@@ -285,6 +285,10 @@ D LED with R
 K LED
 $ENDCMP
 #
+$CMP M68AF127B
+D 1Mbit (128K x8), 5V Asynchronous SRAM
+$ENDCMP
+#
 $CMP MAX31855
 D Thermocouple-to-Digital Converter
 K SPI
