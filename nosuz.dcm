@@ -8,6 +8,10 @@ $CMP 74HC30
 D 8-input NAND gate
 $ENDCMP
 #
+$CMP 74HC574
+D Octal D-type flip-flop; positive edge-trigger; 3-state
+$ENDCMP
+#
 $CMP AM232x
 D Temp and Relative Humidity Sensor
 K temp humidity sensor I2C
