@@ -4,6 +4,10 @@ $CMP 2N7002K
 F transistors/mos/*.*
 $ENDCMP
 #
+$CMP 74HC30
+D 8-input NAND gate
+$ENDCMP
+#
 $CMP AM232x
 D Temp and Relative Humidity Sensor
 K temp humidity sensor I2C
