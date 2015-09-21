@@ -405,4 +405,9 @@ K Z80
 F http://www.zilog.com/docs/z80/ps0178.pdf
 $ENDCMP
 #
+$CMP Z8S180
+D Zilog Z8S180 CPU
+F http://www.zilog.com/docs/z180/z8s180ps.pdf
+$ENDCMP
+#
 #End Doc Library
