@@ -367,6 +367,11 @@ $ENDCMP
 $CMP SLIDE_SWITCH_2-3
 D slide switch, 6P
 $ENDCMP
+#
+$CMP SLIDE_SWITCH_6P
+D slide switch, 6P
+$ENDCMP
+#
 $CMP SO1602A
 D OLED Charactor Display, I2C
 K OLED Display I2C
