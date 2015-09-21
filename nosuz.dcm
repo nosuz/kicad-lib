@@ -364,6 +364,9 @@ K humidity sensor, I2C
 F http://www.sensirion.com/fileadmin/user_upload/customers/sensirion/Dokumente/Humidity/Sensirion_Humidity_SHT3x_Datasheet_digital.pdf
 $ENDCMP
 #
+$CMP SLIDE_SWITCH_2-3
+D slide switch, 6P
+$ENDCMP
 $CMP SO1602A
 D OLED Charactor Display, I2C
 K OLED Display I2C
