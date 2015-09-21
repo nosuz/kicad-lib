@@ -399,4 +399,10 @@ D USB Micro B connector
 K USB Micro B, USB
 $ENDCMP
 #
+$CMP Z84C00PEG
+D Zilog CMOS Z80 CPU
+K Z80
+F http://www.zilog.com/docs/z80/ps0178.pdf
+$ENDCMP
+#
 #End Doc Library
