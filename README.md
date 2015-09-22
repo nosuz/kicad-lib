@@ -1,12 +1,45 @@
 # KiCad コンポーネントとフットプリント
 
-## 注意
+## 使い方
 
-* 一部のコンポーネントとフットプリントは、KiCadに含まれる（配布されている）物を修正したものです。
-* コンポーネントとライブラリーは、KiCad 4.0以降のフォーマットになっています。これ以前のKiCadでは使用できません。
-* データシートを参照して作成しただけで実際に使用したことがないコンポーネントとフットプリントも含まれています。使用前には実物の形状にあっているか確認してください。
+### コンポーネント
 
-## コンポーネントライブラリーとフットプリント
+1. コンポーネントライブラリ([nosuz.lib](nosuz.lib)と[nosuz.dcm](nosuz.dcm))をダウンロードする。
+2. 回路図エディタ(Eeschema)を起動する。
+3. 設定からコンポーネントライブラリを開く。
+4. 「ユーザ定義の検索パス」の「追加」ボタンをクリックして、ダウンロードしたアイブラリーのあるフォルダを指定する。パスは、絶対でも相対でも良い。
+5. コンポーネントライブラリの「追加」または「挿入」ボタンをクリックして、ダウンロードしたnosuz.libを開く。
+6. 「OK」をクリックしてダイアログを閉じる。
+
+これでKiCadと一緒に配布されるコンポーネントと同様に使用できます。
+
+### フットプリント
+
+1. プリント基板エディタ(Pcbnew)を起動する。
+2. 「設定」から「フットプリントライブラリの管理」を開く。
+3. 「グローバルライブラリ」または「プロジェクト固有のライブラリ」をタブで選ぶ。
+4. 「ライブラリの追加」ボタンをクリックする。「ウィザードを使用して追加」はうまく行かない。
+5. 「ライブラリの一覧」の最後に追加された欄に次のテーブル内容を書き込む。他のカラムは空白のままにする。別名は、好きな名前を指定できます。
+6. 「OK」をクリックしてダイアログを閉じる。
+
+|別名(ニックネーム)|ライブラリのパス|プラグインの種類|
+|------------------|----------------|----------------|
+|nosuz|https://github.com/nosuz/kicad-lib|Github|
+
+追加したライブラリーは、Pcbnewの上部メニューの下に有るICに虫眼鏡のアイコン(フットプリントビューアを開く)を使うのが簡単です。
+
+1. 「フットプリントビューアを開く」アイコンをクリックする。
+2. 一番左のカラムから追加したフットプリントライブラリを選択する。
+
+これでフットプリントの一覧が表示されればライブラリの追加成功です。
+
+_Githubを参照すること無く、必要なフットプリントのみをダウンロードして使用することも可能です。_
+
+## コンポーネントとフットプリント一覧
+
+このレポジトリーには、次のコンポーネントとフットプリントが含まれています。
+
+### コンポーネントと対応するフットプリント
 
 |component|description|aliases|fp filter|footprint
 |---------|--------|-----|---------|---------
@@ -45,6 +78,7 @@
 |LED_WITH_R|LED with R||LED-5MM|
 |M68AF127B|1Mbit (128K x8), 5V Asynchronous SRAM||SO32*|SO32_STM_M68AF127B.kicad_mod
 |[MAX31855](http://datasheets.maximintegrated.com/en/ds/MAX31855.pdf)|Thermocouple-to-Digital Converter|MAX31855K<br />MAX31855J<br />MAX31855N<br />MAX31855T<br />MAX31855E<br />MAX31855R<br />MAX31855S|MAX-S8|MAX-S8.kicad_mod
+|Mount_Hole|PCB Mounting Hole||HOLE-*|HOLE-M3.kicad_mod
 |[NJM2865F33](http://semicon.njr.co.jp/jpn/PDF/NJM2865_NJM2866_J.pdf)|LDO Regulator, +3.3V 100 mA||SOT-23-5*|SOT-23-5_NJM286x.kicad_mod
 |[NJM2866F33](http://semicon.njr.co.jp/jpn/PDF/NJM2865_NJM2866_J.pdf)|LDO Regulator, +3.3V 100 mA||SOT-23-5*|SOT-23-5_NJM286x.kicad_mod
 |OSL40562|7segment LED, common cathode|OSL40562-LYA<br />OSL40562-LR<br />OSL40562-LB<br />OSL40562-LRA<br />OSL40562-LG<br />OSL40562-LW|OSL40562|OSL40562.kicad_mod
@@ -69,7 +103,7 @@
 |[Z84C00PEG](http://www.zilog.com/docs/z80/ps0178.pdf)|Zilog CMOS Z80 CPU|TMPZ84C00AP<br />TMPZ84C00AM|DIP-40*|DIP-40_Z84C00.kicad_mod
 |[Z8S180](http://www.zilog.com/docs/z180/z8s180ps.pdf)|Zilog Z8S180 CPU||QFP80*|QFP80_Z8S180.kicad_mod
 
-## コンポーネントライブラリーで参照されなかったフットプリント
+### コンポーネントライブラリで参照されなかったフットプリント
 * 2DC-0005X100.kicad_mod
 * 5.05mm_RXEF020.kicad_mod
 * CH243-2032LF.kicad_mod
@@ -84,7 +118,6 @@
 * Diode-PMDU_RB160M-30.kicad_mod
 * FC-255.kicad_mod
 * HC-49_S_THD.kicad_mod
-* HOLE-M3.kicad_mod
 * LED_5mm.kicad_mod
 * LED_OSI5LAS1C1A.kicad_mod
 * LED_w_R_5mm.kicad_mod
@@ -116,4 +149,10 @@
 * Socket_Strip_Straight_2x07.kicad_mod
 * Socket_Strip_Straight_2x08.kicad_mod
 * TB401a-1-2-E.kicad_mod
+
+## 注意
+
+* 一部のコンポーネントとフットプリントは、KiCadに含まれる（配布されている）物を修正したものです。
+* コンポーネントとライブラリーは、KiCad 4.0以降のフォーマットになっています。これ以前のKiCadでは使用できません。
+* データシートを参照して作成しただけで実際に使用したことがないコンポーネントとフットプリントも含まれています。使用前には実物の形状にあっているか確認してください。
 

@@ -121,13 +121,13 @@ end
 comp = Component.new(params[:component])
 fp = Footprint.new(params[:footprint])
 
-open(Script_dir + "/table-template.txt"){|io|
+open(Script_dir + "/table-template_1.txt"){|io|
   io.each{|line|
     print line
   }
 }
 
-print "## コンポーネントライブラリーとフットプリント\n"
+print "### コンポーネントと対応するフットプリント\n"
 print "\n"
 print "|component|description|aliases|fp filter|footprint\n"
 print "|---------|--------|-----|---------|---------\n"
@@ -167,8 +167,15 @@ comp.each{|item|
   }
 }
 
-print "## コンポーネントライブラリーで参照されなかったフットプリント\n"
+print "### コンポーネントライブラリで参照されなかったフットプリント\n"
 footprints.sort{|a,b| a <=> b}.each{|fp|
   print "* #{fp}\n"
 }
 print "\n"
+
+open(Script_dir + "/table-template_2.txt"){|io|
+  io.each{|line|
+    print line
+  }
+}
+
