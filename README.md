@@ -75,7 +75,7 @@ _Githubを参照すること無く、必要なフットプリントのみをダ�
 |[IRLML6344](http://www.irf.com/product-info/datasheets/data/irlml6344pbf.pdf)|Nch MOS-FET||SOT-23*|SOT-23_2N7002K.kicad_mod<br />SOT-23_IRLML6344.kicad_mod<br />SOT-23_BSS138.kicad_mod<br />SOT-23_IRLML6402.kicad_mod<br />SOT-23-5_NJM286x.kicad_mod
 |[IRLML6402](http://www.irf.com/product-info/datasheets/data/irlml6402pbf.pdf)|Pch MOS-FET||SOT-23*|SOT-23_2N7002K.kicad_mod<br />SOT-23_IRLML6344.kicad_mod<br />SOT-23_BSS138.kicad_mod<br />SOT-23_IRLML6402.kicad_mod<br />SOT-23-5_NJM286x.kicad_mod
 |[KM-23YSGC](http://akizukidenshi.com/download/ds/kingbright/KM-23YSGC(Ver.6B).pdf)|Two color LED, Yellow and Green||SOT*|SOT-23_2N7002K.kicad_mod<br />SOT-23_IRLML6344.kicad_mod<br />SOT-23_BSS138.kicad_mod<br />SOT-23_IRLML6402.kicad_mod<br />SOT-23-5_NJM286x.kicad_mod<br />SOT-25_TAR5SBxx.kicad_mod
-|LED_WITH_R|LED with R||LED-5MM|
+|LED_WITH_R|LED with R||LED-5MM<br />LED_w_R_5mm|LED_w_R_5mm.kicad_mod
 |M68AF127B|1Mbit (128K x8), 5V Asynchronous SRAM||SO32*|SO32_STM_M68AF127B.kicad_mod
 |[MAX31855](http://datasheets.maximintegrated.com/en/ds/MAX31855.pdf)|Thermocouple-to-Digital Converter|MAX31855K<br />MAX31855J<br />MAX31855N<br />MAX31855T<br />MAX31855E<br />MAX31855R<br />MAX31855S|MAX-S8|MAX-S8.kicad_mod
 |Mount_Hole|PCB Mounting Hole||HOLE-*|HOLE-M3.kicad_mod
@@ -120,7 +120,6 @@ _Githubを参照すること無く、必要なフットプリントのみをダ�
 * HC-49_S_THD.kicad_mod
 * LED_5mm.kicad_mod
 * LED_OSI5LAS1C1A.kicad_mod
-* LED_w_R_5mm.kicad_mod
 * OPEN-BRIDGE.kicad_mod
 * Pin_Header_Angled_2x07.kicad_mod
 * Pin_Header_Angled_2x08.kicad_mod
