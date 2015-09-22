@@ -1,4 +1,4 @@
-(module QFN-32_amtel32M1-A (layer F.Cu) (tedit 55B03155)
+(module QFN32_amtel32M1-A (layer F.Cu) (tedit 55B03155)
   (descr http://www.atmel.com/images/atmel-8826-seeprom-pcb-mounting-guidelines-surface-mount-packages-applicationnote.pdf)
   (tags "MLF32 QFN32 32M1-A")
   (clearance 0.16)

@@ -1,7 +1,8 @@
 EESchema-DOCLIB  Version 2.0
 #
 $CMP 2N7002K
-F transistors/mos/*.*
+D Nch MOS-FET
+F https://www.fairchildsemi.co.jp/datasheets/2N/2N7002K.pdf
 $ENDCMP
 #
 $CMP 74HC30
