@@ -296,6 +296,11 @@ K SPI
 F http://datasheets.maximintegrated.com/en/ds/MAX31855.pdf
 $ENDCMP
 #
+$CMP Mount_Hole
+D PCB Mounting Hole
+K Mount Hole,
+$ENDCMP
+#
 $CMP NJM2865F33
 D LDO Regulator, +3.3V 100 mA
 K LDO Regulator, +3.3V, 100mA, SOT-23-5
