@@ -44,6 +44,7 @@ _Githubを参照すること無く、必要なフットプリントのみをダ�
 |component|description|aliases|fp filter|footprint|
 |---------|--------|-----|---------|---------|
 |[2N7002K](https://www.fairchildsemi.co.jp/datasheets/2N/2N7002K.pdf)|Nch MOS-FET||SOT-23*|SOT-23-5_NJM286x.kicad_mod<br />SOT-23_2N7002K.kicad_mod<br />SOT-23_BSS138.kicad_mod<br />SOT-23_IRLML6344.kicad_mod<br />SOT-23_IRLML6402.kicad_mod|
+|[2SJ279](http://akizukidenshi.com/download/ds/renesas/2sj279stl-e.pdf)|P-ch MOS FET 60V 5A||SC-63|SC-63.kicad_mod|
 |[42J12ZB](http://akizukidenshi.com/download/ds/jae/42j.pdf)|DIPロータリースイッチ||||
 |74HC30|8-input NAND gate|74HCT30|SO14*|SO14_NPX_SOT108-1.kicad_mod|
 |74HC574|Octal D-type flip-flop; positive edge-trigger; 3-state|74HCT574|SO20*|SO20_NPX_SOT163-1.kicad_mod|
@@ -89,7 +90,7 @@ _Githubを参照すること無く、必要なフットプリントのみをダ�
 |[NJM2866F33](http://semicon.njr.co.jp/jpn/PDF/NJM2865_NJM2866_J.pdf)|LDO Regulator, +3.3V 100 mA||SOT-23-5*|SOT-23-5_NJM286x.kicad_mod|
 |OSL40562|7segment LED, common cathode|OSL40562-LYA<br />OSL40562-LR<br />OSL40562-LB<br />OSL40562-LRA<br />OSL40562-LG<br />OSL40562-LW|OSL40562|OSL40562.kicad_mod|
 |[OSTB0603C1C-A](http://akizukidenshi.com/download/ds/optosupply/OSTB0603C1C-A.pdf)|LED RGB Anode common||OSTB0603C1C-A|OSTB0603C1C-A.kicad_mod|
-|[OSxx1608](http://akizukidenshi.com/download/ds/optosupply/OSXX1608C1A_ver.a.6.pdf)|LED|OSYG1608<br />OSYL1608<br />OSHR1608<br />OSBL1608<br />OSWT1608<br />OSOR1608|1608<br />D_1608*|1608_OSxx1608.kicad_mod<br />1608_OSYL1608.kicad_mod|
+|[OSxx1608](http://akizukidenshi.com/download/ds/optosupply/OSXX1608C1A_ver.a.6.pdf)|LED|OSYG1608<br />OSYL1608<br />OSHR1608<br />OSBL1608<br />OSWT1608<br />OSOR1608|1608<br />D_1608*|1608_OSxx1608.kicad_mod|
 |[PCC-OST-SMP-K](http://strawberry-linux.com/pub/PCC-OST-SMP.pdf)|Thermocouple Connector, TypeK||PCC-*|PCC-SMP-K.kicad_mod|
 |PIEZO_SOUNDER|Piezo sounder||PKLCS*<br />PKM*<br />SPT*|PKLCS1212E4001.kicad_mod<br />PKM13EPYH4000-A0.kicad_mod|
 |PL-IRM0101|Infrared Receiver Module|PL-IRM1261<br />PL-IRM2121<br />PL-IRM2161<br />OSRB38C9AA|PL-IRM*|PL-IRM0101.kicad_mod|

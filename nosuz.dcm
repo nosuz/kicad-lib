@@ -5,12 +5,36 @@ D Nch MOS-FET
 F https://www.fairchildsemi.co.jp/datasheets/2N/2N7002K.pdf
 $ENDCMP
 #
+$CMP 2SJ279
+D P-ch MOS FET 60V 5A
+K p-ch mos fet
+F http://akizukidenshi.com/download/ds/renesas/2sj279stl-e.pdf
+$ENDCMP
+#
+$CMP 42J12ZB
+D DIPロータリースイッチ
+K DIP switch
+F http://akizukidenshi.com/download/ds/jae/42j.pdf
+$ENDCMP
+#
 $CMP 74HC30
 D 8-input NAND gate
 $ENDCMP
 #
 $CMP 74HC574
 D Octal D-type flip-flop; positive edge-trigger; 3-state
+$ENDCMP
+#
+$CMP ADP3338
+D 低ドロップアウト・レギュレーター 3.3V
+K TDO
+F http://akizukidenshi.com/download/ds/analog/ADP3338_jp.pdf
+$ENDCMP
+#
+$CMP AE-FT231X
+D FT231X USBシリアル変換モジュール
+K USB-serial, FT231
+F http://akizukidenshi.com/download/ds/akizuki/ae_ft231x_manual.pdf
 $ENDCMP
 #
 $CMP AM232x
@@ -222,6 +246,18 @@ K RTC
 F http://akizukidenshi.com/download/ds/maxim/DS1307.pdf
 $ENDCMP
 #
+$CMP ESP32-WROOM-32
+D RF Module, ESP32-D0WDQ6 SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 2.7-3.6V, SMD
+K RF Radio BT ESP ESP32 Espressif
+F https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf
+$ENDCMP
+#
+$CMP ESP32-WROOM-32D
+D RF Module, ESP32-D0WD SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 2.7-3.6V, SMD
+K RF Radio BT ESP ESP32 Espressif
+F https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32d_esp32-wroom-32u_datasheet_en.pdf
+$ENDCMP
+#
 $CMP EX03
 D Clock Crystal Oscillator
 K Crystal Oscillator
@@ -264,10 +300,22 @@ K USB FIFO
 F http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT240X.pdf
 $ENDCMP
 #
+$CMP HX711
+D 24-Bit Analog-to-Digital Converter (ADC) for Weigh Scales
+K ADC
+F http://akizukidenshi.com/download/ds/avia/hx711.pdf
+$ENDCMP
+#
 $CMP IRLML6344
 D Nch MOS-FET
 K Nch MOS FET
 F http://www.irf.com/product-info/datasheets/data/irlml6344pbf.pdf
+$ENDCMP
+#
+$CMP IRLML6344TRPBFTR
+D 30V Vds, 5A Id, N-channel MOSFET, SOT-23
+K N-Channel MOSFET
+F http://akizukidenshi.com/download/ds/ir/irlml6344pbf.pdf
 $ENDCMP
 #
 $CMP IRLML6402
@@ -383,6 +431,12 @@ D OLED Charactor Display, I2C
 K OLED Display I2C
 $ENDCMP
 #
+$CMP STTS751-SOT26-6L
+D I2C SMBus 温度センサー
+K I2C, SMBus, Thermal Sensor
+F http://akizukidenshi.com/download/ds/st/STTS751_CD00252523.pdf
+$ENDCMP
+#
 $CMP Si7020
 D Humidity sensor, Silicon Labs
 K Humidity sensor, I2C
@@ -414,54 +468,6 @@ $ENDCMP
 $CMP Z8S180
 D Zilog Z8S180 CPU
 F http://www.zilog.com/docs/z180/z8s180ps.pdf
-$ENDCMP
-#
-$CMP AE-FT231X
-D FT231X USBシリアル変換モジュール
-K USB-serial, FT231
-F http://akizukidenshi.com/download/ds/akizuki/ae_ft231x_manual.pdf
-$ENDCMP
-#
-$CMP IRLML6344TRPBFTR
-D 30V Vds, 5A Id, N-channel MOSFET, SOT-23
-K N-Channel MOSFET
-F http://akizukidenshi.com/download/ds/ir/irlml6344pbf.pdf
-$ENDCMP
-#
-$CMP 42J12ZB
-D DIPロータリースイッチ
-K DIP switch
-F http://akizukidenshi.com/download/ds/jae/42j.pdf
-$ENDCMP
-#
-$CMP ADP3338
-D 低ドロップアウト・レギュレーター 3.3V
-K TDO
-F http://akizukidenshi.com/download/ds/analog/ADP3338_jp.pdf
-$ENDCMP
-#
-$CMP ESP32-WROOM-32
-D RF Module, ESP32-D0WDQ6 SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 2.7-3.6V, SMD
-K RF Radio BT ESP ESP32 Espressif
-F https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf
-$ENDCMP
-#
-$CMP ESP32-WROOM-32D
-D RF Module, ESP32-D0WD SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 2.7-3.6V, SMD
-K RF Radio BT ESP ESP32 Espressif
-F https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32d_esp32-wroom-32u_datasheet_en.pdf
-$ENDCMP
-#
-$CMP HX711
-D 24-Bit Analog-to-Digital Converter (ADC) for Weigh Scales
-K ADC
-F http://akizukidenshi.com/download/ds/avia/hx711.pdf
-$ENDCMP
-#
-$CMP STTS751-SOT26-6L
-D I2C SMBus 温度センサー
-K I2C, SMBus, Thermal Sensor
-F http://akizukidenshi.com/download/ds/st/STTS751_CD00252523.pdf
 $ENDCMP
 #
 #End Doc Library
