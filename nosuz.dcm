@@ -422,4 +422,10 @@ K USB-serial, FT231
 F http://akizukidenshi.com/download/ds/akizuki/ae_ft231x_manual.pdf
 $ENDCMP
 #
+$CMP IRLML6344TRPBFTR
+D 30V Vds, 5A Id, N-channel MOSFET, SOT-23
+K N-Channel MOSFET
+F http://akizukidenshi.com/download/ds/ir/irlml6344pbf.pdf
+$ENDCMP
+#
 #End Doc Library
