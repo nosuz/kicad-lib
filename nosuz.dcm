@@ -428,4 +428,40 @@ K N-Channel MOSFET
 F http://akizukidenshi.com/download/ds/ir/irlml6344pbf.pdf
 $ENDCMP
 #
+$CMP 42J12ZB
+D DIPロータリースイッチ
+K DIP switch
+F http://akizukidenshi.com/download/ds/jae/42j.pdf
+$ENDCMP
+#
+$CMP ADP3338
+D 低ドロップアウト・レギュレーター 3.3V
+K TDO
+F http://akizukidenshi.com/download/ds/analog/ADP3338_jp.pdf
+$ENDCMP
+#
+$CMP ESP32-WROOM-32
+D RF Module, ESP32-D0WDQ6 SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 2.7-3.6V, SMD
+K RF Radio BT ESP ESP32 Espressif
+F https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf
+$ENDCMP
+#
+$CMP ESP32-WROOM-32D
+D RF Module, ESP32-D0WD SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 2.7-3.6V, SMD
+K RF Radio BT ESP ESP32 Espressif
+F https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32d_esp32-wroom-32u_datasheet_en.pdf
+$ENDCMP
+#
+$CMP HX711
+D 24-Bit Analog-to-Digital Converter (ADC) for Weigh Scales
+K ADC
+F http://akizukidenshi.com/download/ds/avia/hx711.pdf
+$ENDCMP
+#
+$CMP STTS751-SOT26-6L
+D I2C SMBus 温度センサー
+K I2C, SMBus, Thermal Sensor
+F http://akizukidenshi.com/download/ds/st/STTS751_CD00252523.pdf
+$ENDCMP
+#
 #End Doc Library
