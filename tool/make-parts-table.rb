@@ -129,8 +129,8 @@ open(Script_dir + "/table-template_1.txt"){|io|
 
 print "### コンポーネントと対応するフットプリント\n"
 print "\n"
-print "|component|description|aliases|fp filter|footprint\n"
-print "|---------|--------|-----|---------|---------\n"
+print "|component|description|aliases|fp filter|footprint|\n"
+print "|---------|--------|-----|---------|---------|\n"
 
 comp.keys.sort{|a, b| a <=> b}.each{|key|
   item = comp.get(key)
@@ -154,7 +154,7 @@ comp.keys.sort{|a, b| a <=> b}.each{|key|
     footprints += fp.get(filter)
   }
 
-  print "|#{item_name}|#{item.desc}|#{aliases.join("<br />")}|#{item.footprint.join("<br />")}|#{footprints.join("<br />")}\n"
+  print "|#{item_name}|#{item.desc}|#{aliases.join("<br />")}|#{item.footprint.join("<br />")}|#{footprints.join("<br />")}|\n"
   
 }
 print "\n"
