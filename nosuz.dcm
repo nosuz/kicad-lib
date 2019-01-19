@@ -416,4 +416,10 @@ D Zilog Z8S180 CPU
 F http://www.zilog.com/docs/z180/z8s180ps.pdf
 $ENDCMP
 #
+$CMP AE-FT231X
+D FT231X USBシリアル変換モジュール
+K USB-serial, FT231
+F http://akizukidenshi.com/download/ds/akizuki/ae_ft231x_manual.pdf
+$ENDCMP
+#
 #End Doc Library
